@@ -871,6 +871,17 @@ footer .twitter-share-button {
     top: -5%;
 }
 
+.bg {
+    background: url(../../images/background.jpg) no-repeat 50% 100%;
+    bottom: 0px;
+    background-size: cover;
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+}
+
 .lighthouse {
     -webkit-transform-origin: 50% 90%;
     -moz-transform-origin: 50% 90%;
@@ -1617,6 +1628,9 @@ footer .twitter-share-button {
     .background {
         bottom: 96px;
     }
+    .bg {
+        bottom: 96px;
+    }
     .lighthouse {
         margin: 0px -96px;
         background-size: 192px 336px;
@@ -1856,6 +1870,9 @@ footer .twitter-share-button {
         font-size: 3.46667em;
     }
     .background {
+        bottom: 160px;
+    }
+    .bg {
         bottom: 160px;
     }
     .lighthouse {
