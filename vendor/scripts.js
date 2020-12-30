@@ -60,13 +60,17 @@ function sound() {
 
 
 //controls..........................ends........................
-$("#loader").css('display', 'none');
 
-// $(window).on("load", function() {
-//     $.ready.then(function() {
 
-//     });
-// });
+
+$.ready.then(function() {
+    setTimeout(function() {
+
+        $("#loader").css('display', 'none');
+    }, 5000);
+
+});
+
 
 
 document.addEventListener("keydown", function(e, callback) {

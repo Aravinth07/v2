@@ -39,7 +39,6 @@
     <link rel="stylesheet" type="text/css" href="css/loading.css">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="fluid\fluid.css">
     <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -49,6 +48,17 @@
 
 <body>
 
+    <div id="loader" class="container-fluid loader-wrapper scroll-style">
+
+        <div class="loadWheel img-fluid">
+            <img src="svg/vedhase.svg" style="width: 100%; height: 100%;" alt="loading">
+            <div id="loading-text">
+                &lt;&lt;&lt; LOADING &gt;&gt;&gt;
+            </div>
+
+        </div>
+
+    </div>
 
 
     <div id="container" class="wrapper">
@@ -313,7 +323,6 @@
     </div>
 
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.4/webcomponents-loader.js"></script>
-    <script type="text/javascript" src="fluid/js/dat.gui.min.js"></script>
     <script src="vendor/lottie.js"></script>
     <script src="vendor/lottie_svg.min.js"></script>
     <script src="vendor/swiper-bundle.min.js"></script>
