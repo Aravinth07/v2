@@ -27,15 +27,15 @@
 
 html {
     /* outerbox,scrollbar-bg */
-    --color1: #191919;
+    --color1: #161616;
     /* scrollbar-thumb */
     --color2: #383838;
     /* scrollbar-hover */
     --color3: #4D4D4D;
     /* card border */
     --color4: #000000;
-    /* main background-color,menu button bg */
-    --color5: #212121;
+    /* main background-color,menu button bg 212121 */
+    --color5: #191919;
     --left-side-icon: #212121;
     /* hover */
     --color6: #313030;
