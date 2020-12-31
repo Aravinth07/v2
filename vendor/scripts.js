@@ -1,4 +1,5 @@
 //controls...starts
+
 var bgm = document.getElementById("bgm");
 var OverviewBtnFlag = false;
 var LottieBtnFlag = false;
@@ -338,7 +339,7 @@ $(document).ready(function() {
     $('#overview-up').css('display', 'none');
     $('#lottie-down').css('display', 'block');
     $('#lottie-up').css('display', 'none');
-
+    $('#container').css('display', 'block');
     $('#lottie_page').css('display', 'none');
     $('#overview_page').css('display', 'none');
 });
