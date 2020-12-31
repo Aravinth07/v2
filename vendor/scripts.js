@@ -211,10 +211,10 @@ function sound() {
 
 $(window).on("load", function() {
 
-    setTimeout(function() {
-        $("#loader").css('display', 'none');
-        $("#container").css('display', 'block');
-    }, 2000);
+
+    $("#loader").css('display', 'none');
+
+
 
 });
 
