@@ -308,9 +308,13 @@ button {
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding-box;
     background-clip: padding-box;
+    font-size: 1.33333em;
+    line-height: 45.6px;
+    font-family: "Dosis", sans-serif;
     background-color: #F2F2F2;
-    height: 36px;
-    width: 36px;
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
     position: absolute;
     top: 5px;
     display: block;
