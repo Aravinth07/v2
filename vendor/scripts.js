@@ -9,7 +9,6 @@ $(document).ready(function() {
         slidesPerView: 'auto',
         mousewheel: true,
         observer: true,
-        freeMode: true,
         observeParents: true,
         coverflowEffect: {
             rotate: 50,
