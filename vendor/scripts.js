@@ -1,6 +1,59 @@
 //controls...starts
 var bgm = document.getElementById("bgm");
 
+$(document).ready(function() {
+    var OverviewSwiperHorizontal = new Swiper('.overview_horizontal', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        mousewheel: true,
+        observer: true,
+        freeMode: true,
+        observeParents: true,
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+});
+
+
+
+function overview_up() {
+    $('#overview_page').css('display', 'none');
+    $('#overview-up').css('display', 'none');
+    $('#overview-down').css('display', 'block');
+}
+
+function overview_down() {
+    $('#overview_page').css('display', 'block');
+    $('#overview-down').css('display', 'none');
+    $('#overview-up').css('display', 'block');
+}
+
+function lottie_up() {
+    $('#lottie-up').css('display', 'none');
+    $('#lottie-down').css('display', 'block');
+}
+
+function lottie_down() {
+    $('#lottie-down').css('display', 'none');
+    $('#lottie-up').css('display', 'block');
+}
+
 function play() {
     $('#play_svg').css('display', 'none');
     $('#pause_svg').css('display', 'block');
@@ -158,10 +211,15 @@ document.addEventListener("keydown", function(e, callback) {
 $(document).ready(function() {
     $('#pause_svg').css('display', 'none');
     $('#play_svg').css('display', 'block');
-
     $('#mute_svg').css('display', 'none');
     $('#replay_ro_svg').css('display', 'none');
     $('#sound_svg').css('display', 'block');
     $('#replay_svg').css('display', 'block');
 
+    $('#overview-down').css('display', 'block');
+    $('#overview-up').css('display', 'none');
+    $('#lottie-down').css('display', 'block');
+    $('#lottie-up').css('display', 'none');
+
+    $('#overview_page').css('display', 'none');
 });

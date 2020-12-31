@@ -4,6 +4,17 @@ body {
     height: 100%;
 }
 
+#mute_svg,
+#lottie-up,
+#lottie-down,
+#overview-up,
+#overview-down,
+#play_svg,
+#sound_svg,
+#pause_svg {
+    display: none;
+}
+
 #vedhase-prev,
 #vedhase-next {
     color: var(--white);
@@ -41,35 +52,6 @@ body {
     align-items: center;
 }
 
-#small-width-overview,
-#small-width-lottie,
-#player-controls {
-    display: none;
-}
-
-#full-width-overview,
-#full-width-lottie {
-    display: block;
-}
-
-@media (max-width: 768px) {
-    #mute_svg,
-    #play_svg,
-    #sound_svg,
-    #pause_svg {
-        display: none;
-    }
-    #small-width-overview,
-    #small-width-lottie,
-    #player-controls {
-        display: block;
-    }
-    #full-width-overview,
-    #full-width-lottie {
-        display: none;
-    }
-}
-
 .inner {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -97,9 +79,9 @@ body {
 }
 
 .find-me-card {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 85px;
+    height: 85px;
+    margin: 3px;
 }
 
 .find-me {
@@ -327,5 +309,10 @@ a:hover {
         margin-top: 30px;
         padding-bottom: 150px;
         margin-bottom: 120px;
+    }
+    .find-me-card {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
     }
 }

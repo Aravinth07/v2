@@ -27,7 +27,7 @@
 
 html {
     /* outerbox,scrollbar-bg */
-    --color1: #161616;
+    --color1: #100E0E;
     /* scrollbar-thumb */
     --color2: #383838;
     /* scrollbar-hover */
@@ -35,7 +35,7 @@ html {
     /* card border */
     --color4: #000000;
     /* main background-color,menu button bg 212121 */
-    --color5: #191919;
+    --color5: #100E0E;
     --left-side-icon: #212121;
     /* hover */
     --color6: #313030;

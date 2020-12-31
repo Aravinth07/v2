@@ -48,15 +48,6 @@ body {
     overflow: hidden;
 }
 
-a:focus {
-    outline: thin dotted;
-}
-
-a:hover,
-a:active {
-    outline: 0;
-}
-
 abbr[title] {
     border-bottom: 1px dotted;
 }

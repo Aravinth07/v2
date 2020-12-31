@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="replay" transform="translate(3 -3.987)">
+    <g id="reply-bg" transform="translate(-3 3.987)" fill="#100e0e" stroke="#fff" stroke-width="3">
+      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+      <circle cx="20.5" cy="20.5" r="19" fill="none"/>
+    </g>
+    <path id="player_loop" d="M8,3V0L4,4,8,8V5a6,6,0,0,1,6,6,5.87,5.87,0,0,1-.7,2.8l1.46,1.46A7.986,7.986,0,0,0,8,3ZM8,17a6,6,0,0,1-6-6,5.87,5.87,0,0,1,.7-2.8L1.24,6.74A7.986,7.986,0,0,0,8,19v3l4-4L8,14Z" transform="translate(9.5 13.487)" fill="#fff" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>
