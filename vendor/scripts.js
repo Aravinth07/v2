@@ -209,15 +209,22 @@ function sound() {
 
 //controls..........................ends........................
 
+$(window).on("load", function() {
 
-
-$.ready.then(function() {
     setTimeout(function() {
         $("#loader").css('display', 'none');
         $("#container").css('display', 'block');
-    }, 5000);
+    }, 2000);
 
 });
+
+// $.ready.then(function() {
+//     setTimeout(function() {
+//         $("#loader").css('display', 'none');
+//         $("#container").css('display', 'block');
+//     }, 5000);
+
+// });
 
 
 
