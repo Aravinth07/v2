@@ -63,11 +63,6 @@ function overview_up() {
     $('#overview-down').css('display', 'block');
     $('#lottie-up').css('display', 'none');
     $('#lottie-down').css('display', 'block');
-    $('#play_svg').css('display', 'block');
-    $('#pause_svg').css('display', 'none');
-    const player = document.querySelector(".size");
-    player.pause();
-    bgm.pause();
     OverviewBtnFlag = false;
     LottieBtnFlag = false;
 }
@@ -79,11 +74,6 @@ function overview_down() {
     $('#overview-up').css('display', 'block');
     $('#lottie-up').css('display', 'none');
     $('#lottie-down').css('display', 'block');
-    $('#play_svg').css('display', 'block');
-    $('#pause_svg').css('display', 'none');
-    const player = document.querySelector(".size");
-    player.pause();
-    bgm.pause();
     OverviewBtnFlag = true;
     LottieBtnFlag = false;
 }
@@ -95,11 +85,6 @@ function lottie_up() {
     $('#lottie_page').css('display', 'none');
     $('#lottie-up').css('display', 'none');
     $('#lottie-down').css('display', 'block');
-    $('#play_svg').css('display', 'block');
-    $('#pause_svg').css('display', 'none');
-    const player = document.querySelector(".size");
-    player.pause();
-    bgm.pause();
     OverviewBtnFlag = false;
     LottieBtnFlag = false;
 }
@@ -111,11 +96,6 @@ function lottie_down() {
     $('#overview_page').css('display', 'none');
     $('#lottie-down').css('display', 'none');
     $('#lottie-up').css('display', 'block');
-    $('#play_svg').css('display', 'block');
-    $('#pause_svg').css('display', 'none');
-    const player = document.querySelector(".size");
-    player.pause();
-    bgm.pause();
     OverviewBtnFlag = false;
     LottieBtnFlag = true;
 }
@@ -211,21 +191,9 @@ function sound() {
 //controls..........................ends........................
 
 $(window).on("load", function() {
-
-
     $("#loader").css('display', 'none');
-
-
-
 });
 
-// $.ready.then(function() {
-//     setTimeout(function() {
-//         $("#loader").css('display', 'none');
-//         $("#container").css('display', 'block');
-//     }, 5000);
-
-// });
 
 
 
